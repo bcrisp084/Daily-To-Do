@@ -1,0 +1,30 @@
+#header {
+  background-color: rgb(31, 14, 124);
+}
+body {
+  background-color: rgb(31, 14, 124);
+}
+
+.row {
+  background-color: rgb(68, 68, 80);
+  box-sizing: border-box;
+}
+.card {
+  border: solid black;
+}
+
+.card-title {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underliney;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.saveBtn {
+  color: rgb(14, 13, 13);
+}
