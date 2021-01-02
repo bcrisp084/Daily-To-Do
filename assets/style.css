@@ -17,7 +17,6 @@ body {
   font-size: 50px;
   font-weight: bolder;
   text-align: center;
-  text-decoration: underliney;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
@@ -27,4 +26,17 @@ body {
 
 .saveBtn {
   color: rgb(14, 13, 13);
+}
+
+#currentDate {
+  text-align: center;
+  font-size: x-large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#currentDay {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
