@@ -1,3 +1,4 @@
+// variables to store data in local storage
 var inputNine = $("#09");
 var inputTen = $("#10");
 var inputEleven = $("#11");
@@ -7,14 +8,14 @@ var inputTwo = $("#14");
 var inputThree = $("#15");
 var inputFour = $("#16");
 var inputFive = $("#17");
-
+// function that adds the time and date to the top of the page
 $(document).ready(function () {
   var curretnDate = moment().format("MMMM Do YYYY, h:mm:ss a");
   $("#currentDate").text(curretnDate);
   var currentDay = moment().format("dddd");
   $("#currentDay").text(currentDay);
 });
-
+// function that adds color classes to the blocks depending on time of day
 function displayColor() {
   let currentHour = moment().format("HH");
   $(".form-control").each(function () {
@@ -43,7 +44,7 @@ displayColor();
 setInterval(function () {
   displayColor();
 }, 1000 * 60);
-
+// saves info to local storage
 $(".saveBtn").click(function () {
   var userInputNine = inputNine.val();
   localStorage.setItem("userInputNine", userInputNine);
@@ -65,7 +66,7 @@ $(".saveBtn").click(function () {
   var userInputFive = inputFive.val();
   localStorage.setItem("userInputFive", userInputFive);
 });
-
+//retrieves info from local storage
 function displayUserInput() {
   var savedInputNine = localStorage.getItem("userInputNine");
   inputNine.text(savedInputNine);
