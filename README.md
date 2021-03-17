@@ -14,6 +14,13 @@ the hours to come and the grey blocks represent hours past. Each entry can be sa
 the browsers local storage so there is no need to retrieve anything from a server. Hope
 you enjoy planning out your busy schedule.
 
+## License
+
+![badge](https://img.shields.io/static/v1?label=license&message=MIT&color=green)
+
+## Questions
+
+- For any questions you can reach me at my [Email](crispb73001@gmail.com)
 
 ## Link
 
