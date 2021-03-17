@@ -16,7 +16,8 @@ you enjoy planning out your busy schedule.
 
 
 ## Link
-https://bcrisp084.github.io/Daily-To-Do/
+
+- Here is a link to my deployed application [Click me](https://bcrisp084.github.io/Daily-To-Do/)
 
 ## Photo
 
